@@ -1,0 +1,37 @@
+{
+  "name": "react-server-render",
+  "version": "1.0.0",
+  "description": "React server-side HTML rendering",
+  "main": "./src/server/index.js",
+  "scripts": {
+    "start-dev": "NODE_ENV=development webpack -w & NODE_ENV=development node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "server-rendering",
+    "webpack",
+    "full-stack"
+  ],
+  "author": "Tristin Cunningham",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react-app": "^9.0.2",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
