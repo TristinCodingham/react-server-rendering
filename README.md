@@ -12,13 +12,13 @@
  - The server bundling method will not re-add output files in public folder on build, only browser side will.
 
 *Abilities:*
- - Handles .js extensions.
- - Handles .css extensions.
- - Handles .gif .jpe?g .png .svg formats.
+ - Handles <code>.js</code> extensions.
+ - Handles <code>.css</code> extensions.
+ - Handles <code>.gif .jpe?g .png .svg</code> formats.
 
 *Run Local:*
  - Clone repo.
  - Navigate to repo folder.
- - Run from command-line/terminal within same folder - npm install.
- - After installation, run - <code>npm run start-dev</code>.
+ - From command-line/terminal within same folder, run | <code>npm install</code>.
+ - After installation, run | <code>npm run start-dev</code>.
  - View React App at http://localhost:5000.
